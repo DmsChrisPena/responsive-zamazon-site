@@ -1,0 +1,148 @@
+button {
+  
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 12px 24px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  border-radius: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #EB7F00;
+  border-color: #EB7F00;
+}
+
+.btn-jumbo {
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: #FAAC51;
+	border-color: #FAAC51;
+}
+
+
+.dark-blue {
+  background-color: #22537B;
+}
+
+.med-blue {
+  background-color: #1695A3;
+}
+
+.light-blue {
+  background-color: #ACF0F2;
+}
+
+.white-blue {
+  background-color: #F3FFE2;
+}
+
+.orange {
+  background-color: #EB7F00;
+}
+
+.dark-blue-text {
+  color: #22537B;
+}
+
+.med-blue-text {
+  color: #1695A3;
+}
+
+.light-blue-text {
+  color: #ACF0F2;
+}
+
+.white-blue-text {
+  color: #F3FFE2;
+}
+
+.orange-text {
+  color: #EB7F00;
+}
+
+.featured-item {
+	margin-bottom: 100px;
+	border-radius: 5px;
+	margin-right: 5%;
+	border: 1px solid white;
+}
+
+.jumbo-zamazon {
+	background: url(../img/creativestock1.jpg) no-repeat center center fixed;
+	height: 1200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#jumbo-text1 {
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+
+#jumbo-text2 {
+	font-size: 180px;
+	padding: 0px;
+	height: 15%;
+	letter-spacing: 10px;
+}
+
+#jumbo-text3 {
+	font-size: 48px; 
+	text-align: center; 
+	color: white;
+}
+
+@media (max-width: 1000px) {
+#jumbo-text1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 1000px) {
+#jumbo-text2 {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 1000px) {
+#jumbo-text3 {
+    font-size: 1.5em;
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+#contact-us-now {
+	width: 80% !important;
+	margin-bottom: 100px !important;
+  }
+}
+
+.btn-featured {
+	margin-bottom: 20px;
+}
+
+.img-featured {
+	border-radius: 4px;
+}
+
+.about-us {
+	margin-top: 225px;
+}

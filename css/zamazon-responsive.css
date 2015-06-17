@@ -1,0 +1,173 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #22537B;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 30px;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 30px;
+	font-size: 22px;
+}
+
+.container {
+  width: 85%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #22537B;
+  opacity: 0.6;
+}
+
+#spacing {
+	height: 50px;
+	width: 100%;
+	display:inline-block;
+	margin: 0px;
+	text-align: center;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.full {
+	width: 100%;
+	display:inline-block;
+}
+
+.half {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    display:inline;
+    float: left;
+    padding: 0px;
+	text-align: center;
+  }
+
+@media (max-width: 1000px) {
+.half {
+    width: 100%;
+  }
+}
+
+
+
+.jumbotron {
+	background-color: #00A258;
+	margin: 0px;
+	text-align: center;
+	height: 100px;
+}
+
+.half-section {
+	background-color: #EA3F00;
+}
+
+.cols-3 {
+    width: 28%;
+    position: relative;
+    min-height: 1px;
+    display:inline;
+    float: left;
+    padding: 0px;
+	text-align: center;
+}
+
+.cols-3-section {
+	background-color: rgb(179, 68, 157);
+}
+
+@media (max-width: 1000px) {
+.cols-3 {
+    width: 100%;
+  }
+}
+
+.cols-4 {
+    width: 25%;
+    position: relative;
+    min-height: 1px;
+    display:inline;
+    float: left;
+    padding: 0px;
+	text-align: center;
+}
+
+.cols-4-section {
+	background-color: rgb(223, 68, 157);
+}
+
+@media (max-width: 1000px) {
+.cols-4-section {
+    width: 50%;
+  }
+}
+
+
+.cols-6 {
+  width: 16.666666666%;
+  position: relative;
+  min-height: 1px;
+  display:inline;
+  float: left;
+  padding: 0px;
+  text-align: center;
+}
+
+.cols-6-section {
+	background-color: rgb(23, 150, 57);
+}
+
+@media (max-width: 1000px) {
+	.cols-6-section {
+	  width: 33.33333333%;
+	}
+}
+
+.cols-8 {
+  width: 12.5%;
+  position: relative;
+  min-height: 1px;
+  display:inline;
+  float: left;
+  padding: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.cols-8-section {
+	background-color: rgb(123, 10, 107);
+}
+
+@media (max-width: 1000px) {
+	.cols-8-section {
+	  width: 25%;
+	}
+}
